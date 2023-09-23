@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(188, 188, 188);
+}
+.container {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 50px;
+    padding: 20px;
+    flex-direction: column;
+    height: 600px;
+}
+
+.modal-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.modal-container form {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;  
+}
+
+.divTable {
+    width: 100%;
+    display: flex;
+} 
+
+.divTable table {
+    width: 100%;
+}
+
+.divTable thead {
+    background-color: rgb(231, 229, 229);
+}
+
+table td {
+    text-align: center;
+}
